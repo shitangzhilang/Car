@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:gravity="center">
 
         <TextView
             android:layout_width="match_parent"
@@ -26,7 +27,8 @@
             android:gravity="center_horizontal"
             android:text="中信直通车联盟"
             android:textColor="#000000"
-            android:textSize="35sp" />
+            android:textSize="35sp"
+            android:textStyle="bold"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,28 +36,37 @@
         android:orientation="vertical"
         android:padding="20dp">
         <Button
+            android:id="@+id/btn_unRegister_weiXin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="微信登录"
-            android:background="#35A858"
-            android:layout_marginBottom="10dp"/>
+            android:background="@drawable/selector_weixin_btn_bg"
+            android:layout_marginBottom="10dp"
+            android:onClick="select"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <Button
-                android:layout_width="wrap_content"
+                android:id="@+id/btn_unRegister_register"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="注册"
-                android:background="#464B54"
+                android:background="@drawable/selector_register_btn_bg"
                 android:layout_marginRight="3dp"
-                android:clickable="true"/>
+                android:layout_marginBottom="10dp"
+                android:onClick="select"
+                />
             <Button
-                android:layout_width="wrap_content"
+                android:id="@+id/btn_unRegister_login"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="登录"
-                android:background="#3D7FE0"
-                android:layout_marginLeft="3dp"/>
+                android:background="@drawable/selector_login_btn_bg"
+                android:layout_marginLeft="3dp"
+                android:onClick="select"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

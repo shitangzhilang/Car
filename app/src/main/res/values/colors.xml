@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDark">#C3C3C3</color>
+    <color name="colorAccent">#35A858</color>
     <color name="know_card_bg">#ffffffff</color>
 
     <color name="car_source_item_pressed">#01DBA7</color>
+    <color name="car_register_default">#464B54</color>
+    <color name="car_register_pressed">#222222</color>
+    <color name="car_register_back_pressed">#DFDFDF</color>
+
 </resources>
