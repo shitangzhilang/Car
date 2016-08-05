@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zx.car.view.HomePageIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/home_page_home_indicator_with"
+        android:layout_height="@dimen/home_page_home_indicator_height"
+        android:id="@+id/iv_bg"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="@dimen/home_page_home_indicator_with"
+        android:layout_height="@dimen/home_page_home_indicator_height"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/tv_hot"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/home_page_indicator_hot"/>
+
+        <TextView
+            android:id="@+id/tv_new"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:text="@string/home_page_indicator_new"/>
+    </LinearLayout>
+</com.zx.car.view.HomePageIndicator>

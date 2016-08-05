@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zx.car.Page.HomePage xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+
+
+    <com.zx.car.view.FixScrollView
+        android:id="@+id/mScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <com.zx.car.view.PadingLinearLayout
+            android:id="@+id/mContaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.zx.car.view.BanerPageView
+                android:id="@+id/mBanerPageView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/home_page_home_banner_height">
+
+
+                <com.zx.car.view.FixViewPager
+                    android:id="@+id/mViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                </com.zx.car.view.BanerPageView>
+
+
+            <include
+                android:id="@+id/mHomePageIndicator"
+                layout="@layout/indicatortest"
+                />
+
+
+            <com.zx.car.view.HomeViewPage
+                android:id="@+id/mHomePageListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+        </com.zx.car.view.PadingLinearLayout>
+
+    </com.zx.car.view.FixScrollView>
+</com.zx.car.Page.HomePage>

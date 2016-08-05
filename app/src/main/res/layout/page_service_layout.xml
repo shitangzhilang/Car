@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zx.car.Page.ServicePage xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/car1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="质保服务"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="知识手册应用指南"
+                android:textColor="@color/car_source_item_pressed"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR INSURANCE"
+                android:textColor="#636468"
+                android:layout_marginTop="5dp"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/car2"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="按揭服务"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="汽车贷款疑难问答"
+                android:textColor="@color/car_source_item_pressed"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR INSURANCE"
+                android:textColor="#636468"
+                android:layout_marginTop="5dp"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/car3"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PDI"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="经销商的指南"
+                android:textColor="@color/car_source_item_pressed"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR INSURANCE"
+                android:textColor="#636468"
+                android:layout_marginTop="5dp"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/car4"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上牌"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="经销商的指南"
+                android:textColor="@color/car_source_item_pressed"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR INSURANCE"
+                android:textColor="#636468"
+                android:layout_marginTop="5dp"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/car5"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="温馨提示"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="经销商的指南"
+                android:textColor="@color/car_source_item_pressed"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAR INSURANCE"
+                android:textColor="#636468"
+                android:layout_marginTop="5dp"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</com.zx.car.Page.ServicePage>

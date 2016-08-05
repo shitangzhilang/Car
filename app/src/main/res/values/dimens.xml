@@ -1,0 +1,18 @@
+<resources>
+    <!-- 主页底部的菜单宽度 -->
+    <dimen name="home_menu_layout_height">68dip</dimen>
+    <dimen name="home_menu_layout_item_icon">37dip</dimen>
+    <dimen name="home_menu_layout_item_addicon">68dip</dimen>
+    <dimen name="home_menu_layout_padding">2dip</dimen>
+    <dimen name="home_page_home_banner_height">180dip</dimen>
+    <dimen name="home_page_home_indicator_height">38dip</dimen>
+    <dimen name="home_page_home_indicator_with">140dip</dimen>
+    <dimen name="know_corner_radius">1dip</dimen>
+
+
+
+    <dimen name="home_page_card_with">180dip</dimen>
+    <dimen name="home_page_card_height">296dip</dimen>
+    <dimen name="home_page_card_top_height">200dip</dimen>
+    <dimen name="home_page_card_bottom_height">96dip</dimen>
+</resources>

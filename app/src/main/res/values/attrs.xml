@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuItemAttrs">
+        <attr name="selector" format="integer" />
+        <attr name="nomal" format="integer" />
+        <attr name="title2" format="string" />
+    </declare-styleable>
+</resources>

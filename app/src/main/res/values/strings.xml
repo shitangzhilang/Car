@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZXCar</string>
+
+    <string name="home_menu_home_title">首页</string>
+    <string name="home_menu_carsource_title">车源</string>
+    <string name="home_menu_service_title">服务</string>
+    <string name="home_menu_person_title">我的</string>
+
+
+    <string name="home_page_indicator_hot">热门</string>
+    <string name="home_page_indicator_new">最新</string>
+</resources>

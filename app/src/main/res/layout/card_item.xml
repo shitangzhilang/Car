@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_weight="1"
+    android:layout_height="@dimen/home_page_card_height"
+    android:background="@drawable/know_app_card_bg"
+    android:layout_margin="2dip">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_page_card_top_height"
+        android:id="@+id/iv_iamges"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#cacacc"
+        android:scaleType="fitXY"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:text="宝马X5"
+        android:textSize="12sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="#313538"
+        android:layout_alignTop="@+id/iv_xianche"
+        android:layout_alignLeft="@+id/tv_sub"
+        android:layout_alignStart="@+id/tv_sub"
+        android:layout_toLeftOf="@+id/iv_xianche"
+        android:layout_toStartOf="@+id/iv_xianche" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="棕/黑色/白"
+        android:id="@+id/tv_sub"
+        android:layout_marginLeft="6dip"
+        android:layout_marginTop="6dip"
+        android:textColor="#b6b6b6"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="65dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_xianche"
+        android:gravity="center"
+        android:text="现车"
+        android:layout_marginRight="6dip"
+        android:layout_marginTop="6dip"
+        android:textSize="12sp"
+        android:background="@drawable/xianche"
+        android:layout_below="@+id/iv_iamges"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:id="@+id/checkBox"
+        android:src="@drawable/selector_heart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dip"
+        android:layout_alignLeft="@+id/tv_sub"
+        android:layout_alignStart="@+id/tv_sub" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dip"
+        android:text="1256"
+        android:id="@+id/tv_heart"
+        android:gravity="left|center"
+        android:textColor="#ccd0d9"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_toRightOf="@+id/checkBox"
+        android:layout_toEndOf="@+id/checkBox" />
+
+    <ImageView
+        android:layout_width="18dip"
+        android:layout_height="18dip"
+        android:id="@+id/iv_eye"
+        android:src="@drawable/shouye_eye"
+        android:layout_alignTop="@+id/tv_heart"
+        android:layout_toLeftOf="@+id/tv_eye"
+        android:layout_toStartOf="@+id/tv_eye" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dip"
+        android:text="1256"
+        android:id="@+id/tv_eye"
+        android:gravity="left|center"
+        android:textColor="#ccd0d9"
+        android:layout_alignTop="@+id/iv_eye"
+        android:layout_alignRight="@+id/iv_xianche"
+        android:layout_alignEnd="@+id/iv_xianche" />
+
+    <TextView
+        android:layout_width="65dip"
+        android:layout_height="26dip"
+        android:text="Y66.3W"
+        android:id="@+id/tv_price"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/price"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

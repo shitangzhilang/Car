@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zx.car.view.HomeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/home_menu_layout_height"
+    android:layout_gravity="bottom"
+    android:padding="@dimen/home_menu_layout_padding"
+    android:background="#ffffff"
+ >
+
+
+    <com.zx.car.view.HomeMenuItemLayout
+        android:id="@+id/item_home"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:selector="@drawable/home_menu_item_home_s"
+        app:nomal="@drawable/home_menu_item_home_n"
+        app:title2="@string/home_menu_home_title"
+        android:gravity="center"
+        android:clickable="true"
+        android:descendantFocusability="beforeDescendants"
+       >
+        <ImageView
+            android:layout_width="@dimen/home_menu_layout_item_icon"
+            android:layout_height="@dimen/home_menu_layout_item_icon"
+            android:clickable="false"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textColor="#afafb7"
+            />
+    </com.zx.car.view.HomeMenuItemLayout>
+
+    <com.zx.car.view.HomeMenuItemLayout
+        android:id="@+id/item_carsource"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:selector="@drawable/home_menu_item_car_s"
+        app:nomal="@drawable/home_menu_item_car_n"
+        app:title2="@string/home_menu_carsource_title"
+        android:clickable="true"
+        android:descendantFocusability="beforeDescendants"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/home_menu_layout_item_icon"
+            android:layout_height="@dimen/home_menu_layout_item_icon"
+            android:clickable="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textColor="#afafb7"
+            />
+    </com.zx.car.view.HomeMenuItemLayout>
+
+
+    <LinearLayout
+        android:id="@+id/item_add"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        android:descendantFocusability="beforeDescendants"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/home_menu_layout_item_addicon"
+            android:layout_height="@dimen/home_menu_layout_item_addicon"
+            android:src="@drawable/home_menu_item_add"
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+
+    <com.zx.car.view.HomeMenuItemLayout
+        android:id="@+id/item_service"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        app:selector="@drawable/home_menu_item_service_s"
+        app:nomal="@drawable/home_menu_item_service_n"
+        app:title2="@string/home_menu_service_title"
+        android:descendantFocusability="beforeDescendants"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/home_menu_layout_item_icon"
+            android:layout_height="@dimen/home_menu_layout_item_icon"
+            android:clickable="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textColor="#afafb7"
+            />
+    </com.zx.car.view.HomeMenuItemLayout>
+
+
+    <com.zx.car.view.HomeMenuItemLayout
+        android:id="@+id/item_person"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+        app:selector="@drawable/home_menu_item_person_s"
+        app:nomal="@drawable/home_menu_item_person_n"
+        app:title2="@string/home_menu_person_title"
+        android:descendantFocusability="beforeDescendants"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/home_menu_layout_item_icon"
+            android:layout_height="@dimen/home_menu_layout_item_icon"
+            android:clickable="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_menu_person_title"
+            android:textColor="#afafb7"
+            android:clickable="false"
+            />
+    </com.zx.car.view.HomeMenuItemLayout>
+</com.zx.car.view.HomeMenuLayout>
