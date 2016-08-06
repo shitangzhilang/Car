@@ -75,28 +75,31 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:drawableTop="@drawable/car_type"
                     android:text="关注车型"
-                    android:textColor="#636468" />
+                    android:textColor="#636468"
+                    style="?android:attr/borderlessButtonStyle"/>
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:drawableTop="@drawable/car_shop"
                     android:text="关注车商"
-                    android:textColor="#636468" />
+                    android:textColor="#636468"
+                    style="?android:attr/borderlessButtonStyle"/>
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:drawableTop="@drawable/car_manager"
                     android:text="关注管理"
-                    android:textColor="#636468" />
+                    android:textColor="#636468"
+                    style="?android:attr/borderlessButtonStyle"/>
             </LinearLayout>
             <!--<View
                 android:layout_width="match_parent"
@@ -110,10 +113,11 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/tv_person_data_edit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:drawableRight="@drawable/arrow_r"
                     android:paddingBottom="16dp"
                     android:paddingLeft="25dp"
@@ -122,18 +126,19 @@
                     android:gravity="center_vertical"
                     android:text="资料编辑"
                     android:textColor="#383838"
+                    android:clickable="true"
                     android:textSize="15sp" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#EEEEEE" />
+                    android:background="#E1E1E1" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:gravity="center_vertical"
                     android:drawableRight="@drawable/arrow_r"
                     android:paddingBottom="16dp"
@@ -141,18 +146,20 @@
                     android:paddingRight="16dp"
                     android:paddingTop="16dp"
                     android:text="推荐给好友"
+                    android:clickable="true"
                     android:textColor="#383838" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#EEEEEE" />
+                    android:background="#E1E1E1" />
 
                 <TextView
+                    android:id="@+id/tv_person_setting"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ffffff"
+                    android:background="@drawable/selector_normal"
                     android:gravity="center_vertical"
                     android:drawableRight="@drawable/arrow_r"
                     android:paddingBottom="16dp"
@@ -160,8 +167,13 @@
                     android:paddingRight="16dp"
                     android:paddingTop="16dp"
                     android:text="设置"
-                    android:textColor="#383838" />
+                    android:textColor="#383838"
+                    android:clickable="true"/>
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"/>
         </LinearLayout>
     </ScrollView>
 </com.zx.car.Page.PersonPage>

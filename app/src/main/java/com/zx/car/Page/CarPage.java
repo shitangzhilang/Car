@@ -30,4 +30,11 @@ public class CarPage extends BasePage{
     public void initPage() {
 
     }
+
+    public void setOffsetY(int top) {
+
+        if(getChildCount()>0){
+            getChildAt(0).setPadding(0,top,0,0);
+        }
+    }
 }

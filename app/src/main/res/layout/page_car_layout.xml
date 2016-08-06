@@ -9,5 +9,6 @@
     <com.zx.car.view.CarSourceListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@null"/>
+        android:divider="@null"
+        android:clipToPadding="false"/>
 </com.zx.car.Page.CarPage>

@@ -60,6 +60,8 @@
         <activity android:name=".UnRegisterActivity"/>
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".LoginActivity"/>
+        <activity android:name=".SettingActivity"/>
+        <activity android:name=".DataEditActivity"/>
         <!-- 此类为图片加载的全局配置类！-->
         <meta-data
             android:name="com.zx.car.config.FlyGlideModule"

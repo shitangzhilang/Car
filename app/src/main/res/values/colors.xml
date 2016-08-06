@@ -8,6 +8,6 @@
     <color name="car_source_item_pressed">#01DBA7</color>
     <color name="car_register_default">#464B54</color>
     <color name="car_register_pressed">#222222</color>
-    <color name="car_register_back_pressed">#DFDFDF</color>
+    <color name="car_register_back_pressed">#E1E1E1</color>
 
 </resources>

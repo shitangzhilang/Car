@@ -8,4 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Data_Edit_TV_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Data_Edit_TV_Style_title" parent="Data_Edit_TV_Style">
+        <item name="android:textColor">#393939</item>
+    </style>
+    <style name="Data_Edit_TV_Style_content" parent="Data_Edit_TV_Style">
+        <item name="android:textColor">#818B8C</item>
+        <item name="android:layout_gravity">center_vertical|right</item>
+    </style>
+
+    <style name="View_Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#E1E1E1</item>
+    </style>
 </resources>
