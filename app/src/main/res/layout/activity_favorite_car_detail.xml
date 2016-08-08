@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_normal"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_green_l" />
+
+        <TextView
+            android:id="@+id/tv_setting_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="车源详情"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+        <View
+            style="@style/View_Divider"
+            android:layout_gravity="bottom"/>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/car_source" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="2016款 保时捷 Porsche 911 基本5座"
+                android:textColor="#323639"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/time"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="2016-02-06"
+                    android:textColor="#9BA0A3"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/shouye_eye"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:text="5736"
+                    android:textColor="#9BA0A3"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="¥64.5万"
+                    android:textColor="#0CD1A3"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/favorite_car_bg_yellow"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="5dp"
+                    android:text="特价"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/selector_car_source_btn_bg"
+                style="?android:attr/borderlessButtonStyle"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="订阅该车辆"
+                android:textColor="#0CD1A3"
+                android:textSize="12sp" />
+
+            <View
+                style="@style/View_Divider"
+                android:layout_marginTop="22dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_zhong_xin_title"
+                    style="@style/Data_Edit_TV_Style_title"
+                    android:layout_centerVertical="true"
+                    android:text="中信直通车（宁波）" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_corner_bg"
+                    android:text="CITIC认证"
+                    android:layout_toRightOf="@id/tv_zhong_xin_title"
+                    android:layout_centerVertical="true"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/arrow_r" />
+            </RelativeLayout>
+            <View
+                style="@style/View_Divider"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:text="车辆信息"
+                style="@style/Data_Edit_TV_Style_title"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="车型分类"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="保时捷911"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="颜色"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="黑/棕"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="车辆类型"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="中东版"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="车源所在地"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="天津市"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="是否现车"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="期车/9月到港"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="销售区域"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="售全国"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="手续"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="手续全随车发"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="车架号"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="156468"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+            <View
+                style="@style/View_Divider" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:background="@drawable/selector_normal">
+                <TextView
+                    android:text="配置"
+                    style="@style/Data_Edit_TV_Style_title"
+                    />
+                <TextView
+                    android:text="前后排桌椅加热\n发动机起停技术"
+                    android:lineSpacingExtra="3dp"
+                    style="@style/Data_Edit_TV_Style_content"
+                    android:layout_gravity="right"
+                    android:textColor="#393939"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

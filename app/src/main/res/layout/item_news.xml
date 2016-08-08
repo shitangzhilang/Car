@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/news"/>
+
+        <TextView
+            android:id="@+id/tv_news_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#393939"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:padding="12dp"
+            android:lineSpacingExtra="3dp"
+            android:text="七月盛夏来临！宝马7系进口特价活动开启，关注参与即可活动可口可以一份。活动地址：宁波市海曙区有车有房生活馆，联系电话：1345678902，点击查看详情"
+            android:background="@drawable/news_msg_bg"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_news_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#959595"
+        android:text="2016-07-26 12:34"
+        android:layout_marginTop="15dp"
+        android:gravity="center"/>
+</LinearLayout>

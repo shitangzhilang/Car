@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_normal"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/arrow_green_l" />
+
+        <TextView
+            android:id="@+id/tv_setting_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="订阅管理"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            style="@style/View_Divider"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_car_manager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/car_register_back_pressed"
+                android:dividerHeight="1dp"></ListView>
+
+            <View style="@style/View_Divider" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <Button
+                    android:id="@+id/btn_favorite_mgr_add"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/selector_car_source_btn_bg"
+                    android:text="+ 新增经销商"
+                    android:textColor="#0CD1A3"/>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/drawer_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:clickable="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="订阅经销商"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <View style="@style/View_Divider"
+                android:layout_height="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="中信直通车（宁波）"
+                android:textSize="16sp"
+                android:textColor="#383838"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <View style="@style/View_Divider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="中信直通车（宁波）"
+                android:textSize="16sp"
+                android:textColor="#383838"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <View style="@style/View_Divider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="中信直通车（宁波）"
+                android:textSize="16sp"
+                android:textColor="#383838"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <View style="@style/View_Divider" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="中信直通车（宁波）"
+                android:textSize="16sp"
+                android:textColor="#383838"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+            <View style="@style/View_Divider" />
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

@@ -62,6 +62,13 @@
         <activity android:name=".LoginActivity"/>
         <activity android:name=".SettingActivity"/>
         <activity android:name=".DataEditActivity"/>
+        <activity android:name=".ServiceDetailActivity"/>
+        <activity android:name=".NewsActivity"/>
+        <activity android:name=".FavoriteCarActivity"/>
+        <activity android:name=".FavoriteCarShopActivity"/>
+        <activity android:name=".FavoriteManagerActivity"/>
+        <activity android:name=".FavoriteCarDetailActivity"/>
+        <activity android:name=".FavoriteCarShopDetailActivity"/>
         <!-- 此类为图片加载的全局配置类！-->
         <meta-data
             android:name="com.zx.car.config.FlyGlideModule"

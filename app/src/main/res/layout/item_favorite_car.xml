@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_favorite_car_pic"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/temp_favorite_car"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7P"
+            android:padding="7dp"
+            android:textSize="6sp"
+            android:background="@drawable/favorite_p_bg"
+            android:layout_marginTop="20dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保时捷 Porsche 911"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#323639"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="棕/黑色/销全国/02-03"
+            android:textSize="10sp"
+            android:textColor="#9BA0A3"
+            android:layout_marginTop="10dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥64.5万"
+                android:textSize="15sp"
+                android:textColor="#0CD1A3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="现车"
+                android:textSize="10sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:background="@drawable/favorite_car_bg_grey"/>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
